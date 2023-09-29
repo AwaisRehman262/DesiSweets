@@ -1,7 +1,7 @@
 import './App.css'
-import { Mainpage } from './components/Body/mainpage'
-import { Footer } from './components/Footer/Footer'
-import { Header } from './components/Header/Header'
+import { Mainpage } from './components/Body/mainpage.jsx'
+import { Footer } from './components/Footer/Footer.jsx'
+import { Header } from './components/Header/Header.jsx'
 
 function App() {
 
