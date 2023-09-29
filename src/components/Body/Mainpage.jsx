@@ -1,7 +1,7 @@
 import React from "react"
 import "./Mainpage.css"
 
-export const Mainpage = () => {
+const Mainpage = () => {
         return (
                 <div className="homepage">
                         <h1>Desi Sweets</h1>
@@ -11,3 +11,5 @@ export const Mainpage = () => {
                 </div>
         )
 }
+
+export default Mainpage
