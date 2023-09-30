@@ -3,10 +3,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const FooterContainer = styled.footer`
+height:20px;
   background-color: #333;
   color: white;
   padding: 16px;
   text-align: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 `;
 
 const FooterText = styled.p`
@@ -23,7 +26,7 @@ const FooterLink = styled.a`
   }
 `;
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <FooterContainer>
       <FooterText>
@@ -33,5 +36,3 @@ const Footer = () => {
     </FooterContainer>
   );
 };
-
-export default Footer;

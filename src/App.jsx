@@ -1,20 +1,21 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
+import { Routes, Route } from 'react-router-dom'
+import { Header } from './components/Header/Header'
+import { Footer } from './components/Footer/Footer'
+import { Mainpage } from './components/Body/Mainpage'
+import { Errorpage } from './components/Body/Errorpage'
 
 function App() {
 
   return (
-    <BrowserRouter>
+    <>
       <Header />
       <Routes>
-        <Route>
-
-        </Route>
+        <Route path='/' element={<Mainpage />} />
+        <Route path='*' element={<Errorpage />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </>
 
   )
 }

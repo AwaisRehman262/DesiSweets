@@ -1,0 +1,28 @@
+/* MainPage.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    max-width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #333;
+}
+
+.paragraph {
+    color: #555;
+}
